@@ -17,7 +17,7 @@
 
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-	<?php the_content("Read More...");>
+	<?php the_content("Read More...");?>
 </div>
 
 <div class="commentstext">
