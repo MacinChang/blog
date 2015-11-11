@@ -191,9 +191,9 @@ table {	border-collapse: separate;
 
 .post-title { font-weight:200; max-width:970px !important; height:auto; white-space: pre-wrap; word-wrap: break-word; font-family: 'Microsoft YaHei', sans-serif; }
 
-.post-title a { font-family: 'Microsoft YaHei', sans-serif; font-size: 22pt; color: #88b5e3; text-transform:none; font-weight:200; }
+.post-title a { font-family: 'Microsoft YaHei', sans-serif; font-size: 21pt; color: #88b5e3; text-transform:none; font-weight:200; }
 
-.post-title a:hover { font-family: 'Microsoft YaHei', sans-serif; font-size: 22pt; color: #88b5e3; text-transform:none; font-weight:200; }
+.post-title a:hover { font-family: 'Microsoft YaHei', sans-serif; font-size: 21pt; color: #88b5e3; text-transform:none; font-weight:200; }
 
 .post-date { font-family: 'Microsoft YaHei', sans-serif; font-size: 10pt; color: #bbbbbb; }
 
