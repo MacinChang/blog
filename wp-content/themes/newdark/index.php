@@ -17,7 +17,15 @@
 
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-<?php the_content(__('(Read More...)')); ?>
+<?php if(is_category() || is_archive() || is_home() ) {
+     the_excerpt();
+ } else {
+     the_content('Read More...&raquo;'); 
+ } ?>
+ <div class="details">
+		<div class="inside"><?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?> so far | <a href="<?php the_permalink() ?>">Read On &raquo;</a>
+</div>
+</div>
 
 </div>
 
