@@ -44,7 +44,7 @@
 <?php comments_template(); ?>
 
 <h4 class="pagi">
-<?php posts_nav_link(' &#183 ', 'Previous Page', 'Next Page'); ?>
+<?php posts_nav_link(' &#183 ', '上一页', '下一页'); ?>
 </h4>
 
 </div>
